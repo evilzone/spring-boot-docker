@@ -20,3 +20,8 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 
+# docker commands
+
+* docker build -t spring-boot-docker.jar .
+* docker run -p 9090:1000 spring-boot-docker.jar 
+
